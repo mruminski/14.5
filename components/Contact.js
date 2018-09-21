@@ -25,7 +25,7 @@ var Contact = React.createClass({
         {
           className: 'label'
         },
-        'Last Name: ' + this.props.item.lastName
+        'Last name: ' + this.props.item.lastName
       ),
       React.createElement(
         'a', 

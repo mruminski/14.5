@@ -10,7 +10,7 @@ var Contact = React.createClass({
       React.createElement('img', {
         className: 'contactImg',
         src:
-          'http://icons.veryicon.com/ico/System/100%20Flat%20Vol.%202/contacts.ico',
+          'https://openclipart.org/image/300px/svg_to_png/202776/pawn.png',
         alt: 'Contact image'
       }),
       React.createElement(
@@ -28,16 +28,13 @@ var Contact = React.createClass({
         'Last Mame: ' + this.props.item.lastName
       ),
       React.createElement(
-        'p',
+        'a', 
         {
-          className: 'label'
+          className: 'emailLabel',
+          href: 'mailto:' + this.props.item.email
         },
-        'Name: ' + this.props.item.firstName
+        this.props.item.email
       ),
-      React.createElement('a', {
-        className: 'emailLabel',
-        href: 'mailto:' + this.props.item.firstName
-      })
     );
   }
 });

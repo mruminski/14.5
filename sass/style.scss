@@ -1,0 +1,30 @@
+:root { font-size: 16px; }
+
+body { 
+  margin: 0 auto; 
+  max-width: 1200px;
+  text-align: center;
+}
+
+input {
+  margin-right: 5px;
+  padding: 5px 3px;
+}
+
+.contactForm {
+  margin: 25px auto;
+}
+
+.contactImg {
+  width: 100px;
+  margin-top: 10px;
+}
+
+.label {
+  font-size: 1.4rem;
+}
+
+.emailLabel {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
